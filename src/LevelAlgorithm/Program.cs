@@ -98,7 +98,7 @@ namespace LevelAlgorithm
                         Console.WriteLine("Pls some more write character");
                         Console.WriteLine("Your current xp is " + textLength);
                         int answer = Convert.ToInt32(levelsForXp[0]) - textLength;
-                        Console.WriteLine("you have to type " + answer + " more character to go to the next level");
+                        Console.WriteLine("You have to type " + answer + " more character to go to the next level");
                         Console.WriteLine("----------------------------------------------------------------------");
                         cacheXp += text.Length;
                     }
