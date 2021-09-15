@@ -49,13 +49,13 @@ namespace LevelAlgorithm
                         }
                     }
                     //here check level or contiune 
-                    Console.WriteLine("İf you want check your level write 'check level' or write 'contiune' or press enter");
+                    Console.WriteLine("İf you want check your level write 'check level' or write for keep going 'contiune' or  press enter");
                     var status = Console.ReadLine();
                     if (status != "contiune" && status != "check level" && status!="")
                     {
                         while (true)
                         {
-                            Console.WriteLine("İf you want check your level write 'check level' or write 'contiune'");
+                            Console.WriteLine("İf you want check your level write 'check level' or write for keep going 'contiune' or  press enter");
                             var status2 = Console.ReadLine();
                             if (status2 == "check level")
                             {

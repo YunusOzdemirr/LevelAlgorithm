@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KA6JybcFC1Rlpy5I3OjiQgGKhnufmr5L24UfKPNJVmPa+uY+vd+KJ8sTFZZN0IXsMu33GHPgaieKm7wXAtRR7Q==",
+  "dgSpecHash": "A17vjGrkibgJ9KOzvDPJDjJHNFqaEKe3qUG7idA+FQ6jcVaSvaiUU0FMusN3Hw+dIc9TqNBPx2nlIsJjv52srg==",
   "success": true,
-  "projectFilePath": "/Users/yunus/Documents/GitHub/LevelAlgorithm/LevelAlgorithm/LevelAlgorithm.csproj",
+  "projectFilePath": "/Users/yunus/Documents/GitHub/LevelAlgorithm/src/LevelAlgorithm/LevelAlgorithm.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
