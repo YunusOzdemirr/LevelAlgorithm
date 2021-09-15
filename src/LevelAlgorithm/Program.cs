@@ -23,12 +23,16 @@ namespace LevelAlgorithm
                     string text = Console.ReadLine();
                     var textLength=text.Length + cacheXp;
                     //char[] charArray = text.ToCharArray();
+                    if (level==10)
+                    {
+                        Console.WriteLine("Cong you reach the max level");
+                    }
                     if (text=="xp")
                     {
                         Console.WriteLine(totalXp);
                         Console.Clear();
                     }
-                    else if (Convert.ToInt32(levelsForXp[0])<=textLength)
+                    else if (levelsForXp.Count==0||Convert.ToInt32(levelsForXp[0])<=textLength)
                     {
 
                         Console.Clear();
@@ -71,11 +75,14 @@ namespace LevelAlgorithm
                                 if (status2 == "check level" || status2=="c")
                                 {
                                     Console.WriteLine("Your level is " + level);
+                                    if (level==10)
+                                    {
+                                        Console.WriteLine("Cong you reach the max level");
+                                    }
                                     break;
                                 }
-                                else if (status2 == "contiune")
+                                else if (status2 == "contiune" || status2=="")
                                 {
-                                    Console.WriteLine("Write Some More Random Character");
                                     break;
                                 }
                             }
@@ -87,6 +94,7 @@ namespace LevelAlgorithm
                     }
                     else
                     {
+                        Console.Clear();
                         Console.WriteLine("Pls some more write character");
                         Console.WriteLine("Your current xp is " + textLength);
                         cacheXp += text.Length;
