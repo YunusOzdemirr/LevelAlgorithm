@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yunus/Desktop/LevelAlgorithm/LevelAlgorithm/LevelAlgorithm.csproj": {}
+    "/Users/yunus/Documents/GitHub/LevelAlgorithm/LevelAlgorithm/LevelAlgorithm.csproj": {}
   },
   "projects": {
-    "/Users/yunus/Desktop/LevelAlgorithm/LevelAlgorithm/LevelAlgorithm.csproj": {
+    "/Users/yunus/Documents/GitHub/LevelAlgorithm/LevelAlgorithm/LevelAlgorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yunus/Desktop/LevelAlgorithm/LevelAlgorithm/LevelAlgorithm.csproj",
+        "projectUniqueName": "/Users/yunus/Documents/GitHub/LevelAlgorithm/LevelAlgorithm/LevelAlgorithm.csproj",
         "projectName": "LevelAlgorithm",
-        "projectPath": "/Users/yunus/Desktop/LevelAlgorithm/LevelAlgorithm/LevelAlgorithm.csproj",
+        "projectPath": "/Users/yunus/Documents/GitHub/LevelAlgorithm/LevelAlgorithm/LevelAlgorithm.csproj",
         "packagesPath": "/Users/yunus/.nuget/packages/",
-        "outputPath": "/Users/yunus/Desktop/LevelAlgorithm/LevelAlgorithm/obj/",
+        "outputPath": "/Users/yunus/Documents/GitHub/LevelAlgorithm/LevelAlgorithm/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

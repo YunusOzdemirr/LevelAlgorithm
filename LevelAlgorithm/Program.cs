@@ -18,13 +18,12 @@ namespace LevelAlgorithm
             for (int i = 0; i < 10; i++)
             {
                 string text = Console.ReadLine();
-                char[] charArray = text.ToCharArray();
-
+                //char[] charArray = text.ToCharArray();
                 if (text != null)
                 {
                     Console.Clear();
-                    Console.WriteLine(i);
-                    xp = charArray.Length;
+                    xp = text.Length;
+                    //here check the levelsForXp count cause if dont have any level you finished the all levels
                     if (levelsForXp.Count==0)
                     {
                         Console.WriteLine("Cong you reach the max level");
@@ -32,19 +31,24 @@ namespace LevelAlgorithm
                     }
                     else
                     {
+                        //here you check all levels and if your xp is more your level is up
                         for (int j = 0; j < levelsForXp.Count; j++)
                         {
                             if (xp >= Convert.ToInt32(levelsForXp[j]))
                             {
+                                //level is up
                                 level++;
+                                //and your current level is removed from arrayList
                                 levelsForXp.Remove(levelsForXp[j]);
                             }
                             else
                             {
+                                //if your level is not more the arrayList level you have to more write random char so go ahead
                                 break;
                             }
                         }
                     }
+                    //here check level or contiune 
                     Console.WriteLine("İf you want check your level write 'check level' or write 'contiune' or press enter");
                     var status = Console.ReadLine();
                     if (status != "contiune" && status != "check level" && status!="")
