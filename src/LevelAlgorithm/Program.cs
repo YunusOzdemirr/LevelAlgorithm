@@ -18,15 +18,19 @@ namespace LevelAlgorithm
                 Console.Clear();
                 for (int i = 0; i < 10; i++)
                 {
+                    if (level == 10)
+                    {
+                        Console.Clear();
+                        Console.WriteLine("Cong you reach the max level");
+                        Console.WriteLine("Total Xp: " + totalXp);
+                        break;
+                    }
                     Console.WriteLine("if you want to see your total xp write xp");
                     Console.WriteLine("Write Some More Random Character");
                     string text = Console.ReadLine();
                     var textLength=text.Length + cacheXp;
                     //char[] charArray = text.ToCharArray();
-                    if (level==10)
-                    {
-                        Console.WriteLine("Cong you reach the max level");
-                    }
+                    
                     if (text=="xp")
                     {
                         Console.WriteLine(totalXp);
@@ -42,6 +46,7 @@ namespace LevelAlgorithm
                         if (levelsForXp.Count == 0)
                         {
                             Console.WriteLine("Cong you reach the max level");
+                            Console.WriteLine("Total Xp: " + totalXp);
                             break;
                         }
                         else
@@ -78,6 +83,7 @@ namespace LevelAlgorithm
                                     if (level==10)
                                     {
                                         Console.WriteLine("Cong you reach the max level");
+                                        Console.WriteLine("Total Xp: " + totalXp);
                                     }
                                     break;
                                 }
