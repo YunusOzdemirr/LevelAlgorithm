@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{4151927C-612B-4F7A-A6BE-E36E2E92B0F3}|Default">
+  <MonoDevelop.Ide.ItemProperties.LevelAlgorithm PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LevelAlgorithm/Program.cs">
+    <Files>
+      <File FileName="LevelAlgorithm/Program.cs" Line="33" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LevelAlgorithm" expanded="True">
+            <Node name="LevelAlgorithm" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
