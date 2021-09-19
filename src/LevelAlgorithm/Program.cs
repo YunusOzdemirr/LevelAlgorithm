@@ -13,6 +13,7 @@ namespace LevelAlgorithm
             string value = Console.ReadLine();
             int level = 0, xp = 0, totalXp = 0, cacheXp = 0;
             ArrayList levelsForXpp;
+
             ArrayList levelsForXp = new ArrayList { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
             
             if (value != null)
